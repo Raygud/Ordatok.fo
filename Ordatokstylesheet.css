@@ -1,0 +1,706 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.typewriter h1 {
+    text-align: center;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgba(255, 166, 0, 0); }
+  }
+
+  .zoom {
+    display: inline-block;
+    transition: transform .2s; 
+    margin: 0 auto;
+    
+  }
+  .zoom a {
+    padding-left: 0px;
+    width: 100%;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    
+    
+}
+  
+  .zoom:hover {
+    transform: scale(1.5); 
+  }
+
+.A
+{
+        opacity:0.5;
+}
+.A:hover
+{
+        opacity:1;
+}
+
+.logosmall
+{
+    display: none;
+    
+}
+
+
+.imglogo{
+    width: 100%;
+    padding-top: 15px;
+}
+
+.imglogomobile {
+    display: none;
+}
+
+
+
+.heading a {
+    float: none;
+    padding-left: 420px;
+    display: inline;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    white-space: nowrap
+}
+
+.indexlinks { 
+    width: 100%;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    word-spacing: 15px;
+    padding-left: 50px;
+}
+
+    .indexlinks a {
+        width: 100%;
+        text-align: center;
+        color: inherit;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        
+        
+    }
+
+.header{
+  align-content: center;
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: #2e2e2e;
+}
+
+    .intro a {
+        padding-left: 630px;
+        padding-top: 100px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 23px;
+    }
+
+.Ordatok {
+    width: 100%;
+    text-align: left;
+    padding-left: 31%;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.Ordatok a{
+    width: 100%;
+    text-align: left;
+    padding-left: 31%;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+}
+
+
+input[type=text], select, textarea {
+    width: 50%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  
+    input[type=submit]:hover {
+        background-color: #07500d;
+    }
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px;
+    padding-right: 50px;
+}
+
+.Letter{
+    width: 100%;
+    text-align: left;
+    padding-left: 31%;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    padding-top: 2%;
+}
+
+.Letter a{
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    padding-top: 2%;
+}
+
+.S{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50;
+    padding-left: 100;
+}
+
+.S a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50;
+    padding-left: 100;
+}
+
+.randord{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    color: #292929cb;
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .logoimage {
+        padding-left: 30px;
+        float: none;
+        display: unset;
+        height: 250px;
+        width: 250px;
+        white-space: nowrap
+        
+    }
+    .imglogomobile {
+        display: none;
+    }
+
+    .indexlinks { 
+        width: 100%;
+        text-align: center;
+        color: inherit;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        font-size: 14px;
+        word-spacing: 10px;
+        padding-left: 50px;
+    }
+    
+        .indexlinks a {
+            width: 100%;
+            text-align: center;
+            color: inherit;
+            text-decoration: none;
+            font-family: 'Nunito', sans-serif;
+            
+            
+        }
+
+        .indexlinks A{
+            color: #07500d;
+        }
+    
+    .header{
+      align-content: center;
+    }
+    
+    .intro {
+        width: 100%;
+        text-align: center;
+        padding-top: 120px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: #2e2e2e;
+    }
+    
+        .intro a {
+            padding-left: 630px;
+            padding-top: 100px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+    
+    .Ordatok {
+        width: 100%;
+    text-align: left;
+    padding-left: 31%;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    }
+    
+    .Ordatok a{
+        width: 100%;
+    text-align: left;
+    padding-left: 31%;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    }
+    
+    
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical 
+    }
+    
+    
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+        
+        input[type=submit]:hover {
+            background-color: #07500d;
+        }
+    
+    
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 50px;
+        padding-right: 50px;
+    }
+    
+    .Letter{
+        width: 100%;
+    text-align: left;
+    padding-left: 31%;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    }
+    
+    .Letter a{
+        width: 100%;
+    text-align: left;
+    padding-left: 31%;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    }
+    
+    .S{
+        font-family: 'Nunito', sans-serif;
+        font-size: 50;
+        padding-left: 100;
+    }
+    
+    .S a{
+        font-family: 'Nunito', sans-serif;
+        font-size: 50;
+        padding-left: 100;
+    }
+    
+    .imglogo{
+        width: 100%;
+        padding-top: 15px;
+    }
+  }
+
+
+@media only screen and (max-width: 768px) {
+    
+    .logoimage {
+        padding-left: 30px;
+        float: none;
+        display: unset;
+        height: 250px;
+        width: 250px;
+        white-space: nowrap
+        
+    }
+    .imglogomobile {
+        display: none;
+    }
+    
+    .indexlinks { 
+        width: 100%;
+        text-align: center;
+        color: inherit;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        font-size: 12px;
+        word-spacing: 10px;
+        padding-left: 50px;
+    }
+    
+        .indexlinks a {
+            width: 100%;
+            text-align: center;
+            color: inherit;
+            text-decoration: none;
+            font-family: 'Nunito', sans-serif;
+            
+            
+        }
+    
+    .header{
+      align-content: center;
+    }
+    
+    .intro {
+        width: 100%;
+        text-align: center;
+        padding-top: 120px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #2e2e2e;
+    }
+    
+        .intro a {
+            padding-left: 630px;
+            padding-top: 100px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+        }
+    
+    .Ordatok {
+        width: 100%;
+    text-align: left;
+    padding-left: 31%;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    }
+    
+    .Ordatok a{
+        width: 100%;
+    text-align: left;
+    padding-left: 31%;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    }
+    
+   
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid #ccc;
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical 
+    }
+    
+    
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+        
+        input[type=submit]:hover {
+            background-color: #07500d;
+        }
+    
+   
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 50px;
+        padding-right: 50px;
+    }
+    
+    .Letter{
+        width: 100%;
+        text-align: left;
+        padding-left: 31%;
+        color: inherit;
+        text-decoration: none;
+        font-family: 'Teko', sans-serif;
+        font-size: 70px;
+        padding-top: 2%;
+    }
+    
+    .Letter a{
+        color: inherit;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Teko', sans-serif;
+        font-size: 18px;
+        padding-top: 2%;
+    }
+    
+    .S{
+        font-family: 'Nunito', sans-serif;
+        font-size: 50;
+        padding-left: 100;
+    }
+    
+    .S a{
+        font-family: 'Nunito', sans-serif;
+        font-size: 50;
+        padding-left: 100;
+    }
+    
+    .imglogo{
+        width: 100%;
+        padding-top: 15px;
+    }
+  }
+
+  .randord{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    color: #292929cb;
+    
+}
+
+  @media only screen and (max-width: 414px) {
+      
+      
+    .parent{
+        .parent {
+            position: relative;
+            top: 0;
+            left: 0;
+          }
+    }
+    
+    .logosmall{
+        display: inline;
+        margin-top: 20px;
+    padding-left: 135px;
+        padding-bottom: -60px;
+        color: inherit;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 21px;
+    }
+    .imglogo {
+        display: none;
+        padding-top: 19px;
+    }
+   
+    .imglogomobile {
+        display: none;
+        padding-top: 19px;
+    }
+    .indexlinks { 
+        overflow: auto;
+  white-space: nowrap; 
+        width: 100%;
+        text-align: center;
+        color: inherit;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        padding-top: 10px;
+        font-size: 14px;
+        word-spacing: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+        .indexlinks a {
+            width: 100%;
+            text-align: center;
+            color: inherit;
+            text-decoration: none;
+            font-family: 'Nunito', sans-serif;
+            
+            
+        }
+    
+    .header{
+      align-content: center;
+    }
+    
+    .intro{
+        width: 100%;
+        text-align: center;
+        padding-top: 120px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 9px;
+        color: #2e2e2e;
+    }
+    
+    .Ordatok {
+        color: inherit;
+        padding-left: 10px;
+        text-decoration: none;
+        font-family: 'Questrial', sans-serif;
+        font-size: 18px;
+    }
+    
+    .Ordatok a{
+        color: inherit;
+        text-decoration: none;
+        font-family: 'Questrial', sans-serif;
+        font-size: 18px;
+    }
+    
+   
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box;
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical 
+    }
+
+    
+    
+    
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+        
+        input[type=submit]:hover {
+            background-color: #07500d;
+        }
+    
+    
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+    
+    .Letter{
+        color: inherit;
+        padding-left: 10px;
+        padding-top: 50px;
+        text-decoration: none;
+        font-family: 'Teko', sans-serif;
+        font-size: 70px;
+    }
+    
+    .Letter a{
+        color: inherit;
+        text-decoration: none;
+        font-family: 'Teko', sans-serif;
+        font-size: 18px;
+    }
+    
+    .S{
+        font-family: 'Nunito', sans-serif;
+        font-size: 50;
+        padding-left: 100;
+    }
+    
+    .S a{
+        font-family: 'Nunito', sans-serif;
+        font-size: 50;
+        padding-left: 100;
+    }
+    
+    .imglogo{
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .randord{
+        font-family: 'Special Elite', cursive;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 35px;
+    }
+
+  }
